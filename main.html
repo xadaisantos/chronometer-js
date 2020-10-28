@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="light-mode" id="content">
+        <header>
+            <h2>Cronômetro</h2>
+        </header>
+    
+        <main>
+            <div id="relogio">00:00:00.00</div>
+            <div id="botoes">
+                <button onclick="chronometer.start()">Iniciar</button>
+                <button onclick="chronometer.stop()">Parar</button>
+                <button onclick="chronometer.reset()">Resetar</button>
+                <button onclick="alternateColors()">Light / Dark</button>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
+
+    <script src="model.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
